@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 2.7.13 and Python 3.6.3
+>> Python 2.7.13 and Python 3.7.0
 
  
 
