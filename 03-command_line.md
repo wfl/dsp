@@ -20,7 +20,20 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > show current working directory path: `pwd`  
+> > creating a directory: `mkdir <directory name>`  
+> > deleting a directory: `rmdir <directory name>` (if the  directory is empty) else use `rm -r <directory name>`   
+> > creating a file using `touch` command: `touch <filename>`  
+> > deleting a file: `rm <filename>`   
+> > renaming a file: `mv <filename1> <filename2>`
+> > listing hidden files: `ls -a` (but it will also list other files)
+> > copying a file from one directory to another: `cp <filename> destination_directory/`
+> > pipe operator to redirect standard output of the previous command to the next command: `|`  
+> > search for a specific text in a file or files: `grep <specific string> <filename>`    
+> > read an inpt file without needing to print the whole content on the terminal: `less <filename>`  
+> > sorts the lines of a text file alphabetically: `sort <filename>`  
+> > redirect the standard output of a command to a new or existing file: `>`   
+> > append the standard output of a command to an existing file: `>>`  
 
 ---
 
@@ -35,7 +48,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`: list the files and directories in the current working directory  
+> > `ls -a`: list all the contents, including hidden files in the current working directory
+> > 'ls -l': list the files in the long list format in the current working directory
+> > `ls -lh`: list the files in the long list format with readable file size
+> > `ls -lah`: list all te contents, including hidden files, in long list format with readable file size  
+> > `ls -t`: list the files and directories that are sorted by their last modified date and time  
+> > `ls -Glp`: list the files and directories in the long list format, excuding the group ID or owner name. The -p option includes a / at the end of the directories' names   
 
 ---
 
@@ -43,7 +62,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >  `-a`  
+> > `-l`  
+> > `-t`  
+> > '-R`  
+> > `-u`  
 
 ---
 
@@ -51,7 +74,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It takes the items from standard input, and executes a command with these items, as its arguments, one at a time.  
+> > Here is an example on using `xargs` to create 5 new directories in your working directory.  
+> >       `echo "file1 file2 file3 file4 file5" | xargs mkdir`  
+> > Here, the the standrad output from `echo` command (i.e., the five strings) are redirected to `xargs` command and becomes the arguments for the `mkdir` command with which each will be executed one at a time. Thus, `mkdir` is automatically ran 5 times to create 5 new directories.  
+        
+
 
  
 
