@@ -50,7 +50,7 @@ What do the following commands do:
 
 > > `ls`: list the files and directories in the current working directory  
 > > `ls -a`: list all the contents, including hidden files in the current working directory  
-> > 'ls -l': list the files in the long list format in the current working directory  
+> > `ls -l`: list the files in the long list format in the current working directory  
 > > `ls -lh`: list the files in the long list format with readable file size  
 > > `ls -lah`: list all te contents, including hidden files, in long list format with readable file size  
 > > `ls -t`: list the files and directories that are sorted by their last modified date and time  
@@ -65,8 +65,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 > > `-a`  
 > > `-l`  
 > > `-t`  
-> > '-R`  
-
+> > `-R`  
 > > `-u`  
 
 ---
