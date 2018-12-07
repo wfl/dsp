@@ -52,7 +52,7 @@ What do the following commands do:
 > > `ls -a`: list all the contents, including hidden files in the current working directory  
 > > `ls -l`: list the files in the long list format in the current working directory  
 > > `ls -lh`: list the files in the long list format with readable file size  
-> > `ls -lah`: list all te contents, including hidden files, in long list format with readable file size  
+> > `ls -lah`: list all the contents, including hidden files, in long list format with readable file size  
 > > `ls -t`: list the files and directories that are sorted by their last modified date and time  
 > > `ls -Glp`: list the files and directories in the long list format, excuding the group ID or owner name. The -p option includes a / at the end of the directories' names  
 
@@ -75,11 +75,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > It takes the items from standard input, and executes a command with these items, as its arguments, one at a time.  
-> > Here is an example on using `xargs` to create 5 new directories in your working directory.  
+> > Here is an example of a command line using `xargs` to create 5 new directories in your working directory.  
 > >       `echo "file1 file2 file3 file4 file5" | xargs mkdir`  
-> > Here, the the standrad output from `echo` command (i.e., the five strings) are redirected to `xargs` command and becomes the arguments for the `mkdir` command with which each will be executed one at a time. Thus, `mkdir` is automatically ran 5 times to create 5 new directories.  
+> > Here, the standrad output from `echo` command (i.e., the five strings) are redirected to `xargs` command and becomes the arguments for the `mkdir` command with which each will be executed one at a time. Thus, `mkdir` is automatically ran 5 times to create 5 new directories.  
         
-
-
- 
-
