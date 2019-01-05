@@ -79,6 +79,7 @@ This questions asks you to examine the function that produces random numbers.  I
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
 
+---
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
@@ -90,23 +91,25 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 The conditional probability, P(Elvis was an identical twin|Elvis had a twin brother) is calculated using the following equation
    
-   $P(Elvis was an identical twin|Elvis had a twin brother) = \frac{P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin)}{P(Elvis had a twin brother)}$
+    P(Elvis was an identical twin|Elvis had a twin brother) = \frac{P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin)}{P(Elvis had a twin brother)}
    
 with these information:
 
-$P(Elvis had a twin brother|Elvis was an identical twin) = 1$ 
-$P(Elvis had a twin brother|Elvis was not a twin) = 0$
-$P(Elvis had a twin brother|Elvis was a fraternal twin) = 0.5$
+    P(Elvis had a twin brother|Elvis was an identical twin) = 1
+    P(Elvis had a twin brother|Elvis was not a twin) = 0
+    P(Elvis had a twin brother|Elvis was a fraternal twin) = 0.5   (*because it is either same gender or not*)
 
-$P(Elvis was an identical twin) = \frac{1}{300}$
-$P(Elvis was a fraternal twin) = \frac{1}{125}$
-$P(Elvis was not a twin) = 1-(\frac{1}{300} + \frac{1}{125})$
+    P(Elvis was an identical twin) = 1/300
+    P(Elvis was a fraternal twin) = 1/125
+    P(Elvis was not a twin) = 1-(1/300 + 1/125)
 
-$P(Elvis had a twin brother) = P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin) + P(Elvis had a twin brother|Elvis was a fraternal twin)P(Elvis was a fraternal twin) + P(Elvis had a twin brother|Elvis was not a twin)P(Elvis was not an identical twin)$
-$P(Elvis had a twin brother) = \1 x frac{1}{300} + 0.5 x \frac{1}{125} + 0 = 0.00733$                           
+    P(Elvis had a twin brother) = P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin) + P(Elvis had a twin brother|Elvis was a fraternal twin)P(Elvis was a fraternal twin) + P(Elvis had a twin brother|Elvis was not a twin)P(Elvis was not an identical twin)
+    P(Elvis had a twin brother) = (1 x 1/300) + (0.5 x 1/125) + 0 = 0.00733                      
 
-So,
-   $P(Elvis was an identical twin|Elvis had a twin brother) = \frac{1 x \frac{1}{300}}{0.00733} = 0.450$
+
+Therefore,
+
+    P(Elvis was an identical twin|Elvis had a twin brother) = (1 x 1/300)/0.00733 = 0.450
 
 
 ---
