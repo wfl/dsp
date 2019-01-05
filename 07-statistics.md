@@ -86,7 +86,28 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+
+The conditional probability, P(Elvis was an identical twin|Elvis had a twin brother) is calculated using the following equation
+   
+   $P(Elvis was an identical twin|Elvis had a twin brother) = \frac{P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin)}{P(Elvis had a twin brother)}$
+   
+with these information:
+
+$P(Elvis had a twin brother|Elvis was an identical twin) = 1$ 
+$P(Elvis had a twin brother|Elvis was not a twin) = 0$
+$P(Elvis had a twin brother|Elvis was a fraternal twin) = 0.5$
+
+$P(Elvis was an identical twin) = \frac{1}{300}$
+$P(Elvis was a fraternal twin) = \frac{1}{125}$
+$P(Elvis was not a twin) = 1-(\frac{1}{300} + \frac{1}{125})$
+
+$P(Elvis had a twin brother) = P(Elvis had a twin brother|Elvis was an identical twin)P(Elvis was an identical twin) + P(Elvis had a twin brother|Elvis was a fraternal twin)P(Elvis was a fraternal twin) + P(Elvis had a twin brother|Elvis was not a twin)P(Elvis was not an identical twin)$
+$P(Elvis had a twin brother) = \1 x frac{1}{300} + 0.5 x \frac{1}{125} + 0 = 0.00733$                           
+
+So,
+   $P(Elvis was an identical twin|Elvis had a twin brother) = \frac{1 x \frac{1}{300}}{0.00733} = 0.450$
+
 
 ---
 
