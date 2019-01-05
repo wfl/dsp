@@ -1,6 +1,6 @@
 [Think Stats Chapter 8 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77) (scoring)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
 
 ```python
 import thinkstats2
@@ -52,7 +52,7 @@ thinkplot.Show(xlabel="Sample size, n", ylabel="standard error of estimate L")
 ```
 The above experiment is repeated for n ranging from 5 to 50 with increment of 5. The plot of standard error versus n shows the rapid decrease in the standard error as the sample size increases. The decrement of the standard error becomes gradual when the sample size is large, greater than 40. 
 
-![n Vs stderr](https://github.com/wfl/dsp/tree/master/statistics/plots/p8e2_plot.png)
+![Figure 1 - plot (n vs stderr)](https://github.com/wfl/dsp/tree/master/statistics/plots/p8e2_plot.png)
 
 The list of 90% confidence intervals for the sample sizes are presented below. This shows the reduction of the width of the 90% CI is associated with the increase of the sample size, n.
 

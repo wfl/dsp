@@ -2,7 +2,7 @@
 
 ---
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
 
 ```python
 import random
@@ -71,4 +71,4 @@ stderr (100000 simulations) =  1.4087405722843365
 Mean Error (1000000 simulations) =  -0.001209
 stderr (1000000 simulations) =  1.4134719664712136
 
-![Simplot_PMF](https://github.com/wfl/dsp/tree/master/statistics/plots/p8e3_PMF.png)
+![Figure 1 - PMF](https://github.com/wfl/dsp/tree/master/statistics/plots/p8e3_PMF.png)
