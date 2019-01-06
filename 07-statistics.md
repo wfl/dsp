@@ -117,7 +117,12 @@ Therefore,
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+
+* Frequency statistics: The statistical inference is done with the assumption that the statistics or any underlying parameters are changeless, and close to truly represent the actual population. This assumption is based on the fact that the data is randomly sampled from the population or collected via experiments, in an infinitely reapeatable manner. Thus, the inference methods are mainly associated to freqency.  
+
+* Bayesian statistics: The inference takes the prior belief of the event or hypothesis, and data (or evidence) into account when calculate the conditional probability for the hypothesis, which is called the prosterior probability. If new data are avaiable or new prior belief of the hypothesis has changed, the prosterior probability can be updated to enable drawing new conclusions. 
+
 
 ---
 
